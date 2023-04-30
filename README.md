@@ -10,7 +10,7 @@ This neural network has:
 - each neuron's weights and bias are random in the range of (0, 1)
 - 1 output layer with 1 neuron (output)
 
-## Test the model
+## Model Testing
 In this particular example, we use a dataset of weights and heights to predict whether a person is female or male. If the output is close to 1, the tested person is female and vice versa. Each weight and height will be reduced by 135 and 66 respectively to help the model predict better.
 
 Dataset to train the model:
@@ -54,7 +54,7 @@ Frank: 0.480
 
 Although Emily is predicted to be closer to female (0.659 is closer to 1) and Frank is predicted to be closer to male (0.480 is closer to 0), they are not good predictions as both are around 0.5 more. 
 
-## Resources:
+## Resources
 - https://victorzhou.com/blog/intro-to-neural-networks/
 - https://realpython.com/python-ai-neural-network/
 
